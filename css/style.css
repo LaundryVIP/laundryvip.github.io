@@ -500,7 +500,7 @@ a {
       -o-transition: .3s all ease;
       transition: .3s all ease; }
       .testimonial-slider-wrap #testimonial-nav > span:hover {
-        background: #3b5d50;
+        background: #329D9C;
         color: #ffffff; }
     .testimonial-slider-wrap #testimonial-nav .prev {
       left: -10px; }
@@ -540,7 +540,7 @@ a {
         transition: .3s all ease;
         background-color: #d6d6d6; }
       .testimonial-slider-wrap .tns-nav button:hover:before, .testimonial-slider-wrap .tns-nav button.tns-nav-active:before {
-        background-color: #3b5d50; }
+        background-color: #329D9C; }
 
 .before-footer-section {
   padding: 7rem 0 12rem 0 !important; }
@@ -651,7 +651,7 @@ a {
       color: #3b5d50;
       border-radius: 50%; }
       .footer-section .custom-social li a:hover {
-        background: #3b5d50;
+        background: #329D9C;
         color: #ffffff; }
   .footer-section .border-top {
     border-color: #dce5e4; }
