@@ -28,8 +28,7 @@
 <body>
 
 	<!-- Start Header/Navigation -->
-	<nav class="custom-navbar navbar navbar navbar-expand-md navbar-dark bg-dark" arial-label="Furni navigation bar">
-
+	<nav class="custom-navbar navbar navbar-expand-md navbar-dark bg-dark" aria-label="Furni navigation bar">
 		<div class="container">
 			<a class="navbar-brand" href="index.html">
 				<img src="images/home.png" alt="VIP Laundry Logo" class="navbar-logo">
@@ -42,24 +41,45 @@
 
 			<div class="collapse navbar-collapse" id="navbarsFurni">
 				<ul class="custom-navbar-nav navbar-nav ms-auto mb-2 mb-md-0">
-					<li class="nav-item ">
-						<a class="nav-link" href="index.html">Beranda</a>
+					<li class="nav-item">
+						<a class="nav-link" href="dashboard.html">Beranda</a>
 					</li>
-					<li class="active"><a class="nav-link" href="shop.html">Layanan</a></li>
-					<li><a class="nav-link" href="about.html">Tentang Kami</a></li>
-					<li><a class="nav-link" href="blog.html">Berita</a></li>
-					<li><a class="nav-link" href="contact.html">Hubungi Kami</a></li>
+					<li><a class="nav-link" href="shop.html">Layanan</a></li>
+					<li>
+						<!-- Trigger modal as a link -->
+						<a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#logoutModal">
+							Keluar
+						</a>
+					</li>
 				</ul>
 
 				<ul class="custom-navbar-cta navbar-nav mb-2 mb-md-0 ms-5">
-					<li><a class="nav-link" href="profil.html"><img src="images/user.svg"></a></li>
+					<li><a class="nav-link" href="#"><img src="images/user.svg"></a></li>
 					<li><a class="nav-link" href="cart.html"><img src="images/cart.svg"></a></li>
 				</ul>
 			</div>
 		</div>
-
 	</nav>
 	<!-- End Header/Navigation -->
+
+	<!-- Modal -->
+	<div class="modal fade" id="logoutModal" tabindex="-1" aria-labelledby="logoutModalLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="logoutModalLabel">Konfirmasi Keluar</h5>
+					<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+				</div>
+				<div class="modal-body">
+					Apakah anda yakin ingin keluar?
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+					<a href="index.html" class="btn btn-primary">Logout</a>
+				</div>
+			</div>
+		</div>
+	</div>
 
 	<!-- Start Hero Section -->
 	<div class="hero">

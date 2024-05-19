@@ -15,7 +15,12 @@ body {
   line-height: 28px;
   color: #6a6a6a;
   font-size: 14px;
-  background-color: #eff2f1; }
+  background-color: #f2f2f2; }
+
+  .small-logo {
+    width: 200px; /* atau ukuran yang Anda inginkan */
+    height: 150px; /* menjaga rasio aspek */
+}
 
 /*** Spinner ***/
 #spinner {
@@ -64,7 +69,7 @@ a {
   }
   
 .custom-navbar {
-  background: #367377 !important;
+  background: #329D9C !important;
   padding-top: 20px;
   padding-bottom: 20px; }
   .custom-navbar .navbar-brand {
@@ -97,7 +102,7 @@ a {
         bottom: 0;
         left: 8px;
         right: 8px;
-        background: #f9bf29;
+        background: #ff8636;
         height: 5px;
         opacity: 1;
         visibility: visible;
@@ -129,7 +134,7 @@ a {
         margin-right: 20px; }
 
 .hero {
-  background: #367377;
+  background: #329D9C;
   padding: calc(4rem - 30px) 0 0rem 0; }
   @media (min-width: 768px) {
     .hero {
@@ -286,7 +291,7 @@ a {
       right: 0;
       position: absolute;
       content: "";
-      background: #dce5e4;
+      background: #66d4d2;
       height: 0%;
       z-index: -1;
       border-radius: 10px;

@@ -42,11 +42,14 @@
 <!-- halaman login start -->
 
 <body class="max-h-screen">
-    <section class="border-red-500 bg-blue-400 min-h-screen flex items-center justify-center">
+    <section class="border-red-500 bg-blue-300 min-h-screen flex items-center justify-center">
         <div class="bg-gray-100 p-5 flex rounded-2xl shadow-lg max-w-3xl">
             <div class="md:w-2/2 px-5">
-                <h1 class="text-3xl font-bold text-[#002D74] text-center"><a href="../index.html">VIP<span
-                            style="color: black;">.</span>Laundry</a></h1><br>
+                <h1 class="text-3xl font-bold text-[#002D74] text-center">
+                    <a href="../index.html">
+                        <img src="images/homebg.png" alt="VIP.Laundry" class="mx-auto small-logo">
+                    </a>
+                </h1><br>
                 <h1 class="text-1x1 text-center">Silahkan Masuk Untuk Akses VIP.Laundry</h1>
                 <form class="mt-6" id="formlogin">
                     <div>
@@ -65,7 +68,8 @@
 
                     <input type="role" name="role" id="role" hidden value="user" />
 
-                    <input type="submit" value="Masuk" class="w-full block bg-blue-500 hover:bg-blue-400 focus:bg-blue-400 text-white font-semibold rounded-lg
+                    <a href="dashboard.html">Masuk</a>
+                    <input type="submit" value="Masuk" class="w-full block bg-blue-400 hover:bg-blue-300 focus:bg-blue-300 text-white font-semibold rounded-lg
                     px-4 py-3 mt-6"></input>
                 </form>
 
@@ -106,8 +110,5 @@
     <script type="module" src="https://cdn.jsdelivr.net/gh/pakarbi/jspakarbi@0.0.1/js/controller/controllerLoginNPM.js">
     </script>
 </body>
-
-
-<!-- </body> -->
 
 </html>
